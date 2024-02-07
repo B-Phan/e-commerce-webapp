@@ -5,15 +5,22 @@ import { Heading } from "@/components/ui/heading";
 import { Plus } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { useParams, useRouter } from "next/navigation";
+import { BillboardColumn } from "./columns";
 
-export const BillboardClient = () => {
+interface BillboardClientProps {
+  data: BillboardColumn[]
+}
+
+export const BillboardClient: React.FC<BillboardClientProps> = ({
+  data
+}) => {
     const router = useRouter();
     const params = useParams();
   return (
     <>
       <div className="flex items-center justify-between">
         <Heading
-          title="Billboards (0)"
+          title={`Billboards (${data.length})`}
           description="Manage billboards for your store"
         />
         <Button onClick = {() => router.push(`/${params.storeId}/billboards/new`)}>
