@@ -71,7 +71,7 @@ export async function DELETE(
 };
 
 
-export async function PATCH(
+export async function PATCH (
   req: Request,
   { params }: { params: { productId: string, storeId: string } }
 ) {
