@@ -31,19 +31,19 @@ export async function POST(
     }
 
     if (!categoryId) {
-      return new NextResponse("Category id is required", { status: 400 });
+      return new NextResponse("Category ID is required", { status: 400 });
     }
 
     if (!colorId) {
-      return new NextResponse("Color id is required", { status: 400 });
+      return new NextResponse("Color ID is required", { status: 400 });
     }
 
     if (!sizeId) {
-      return new NextResponse("Size id is required", { status: 400 });
+      return new NextResponse("Size ID is required", { status: 400 });
     }
 
     if (!params.storeId) {
-      return new NextResponse("Store id is required", { status: 400 });
+      return new NextResponse("Store ID is required", { status: 400 });
     }
 
     const storeByUserId = await prismadb.store.findFirst({
@@ -96,7 +96,7 @@ export async function GET(
     const isFeatured = searchParams.get('isFeatured');
 
     if (!params.storeId) {
-      return new NextResponse("Store id is required", { status: 400 });
+      return new NextResponse("Store ID is required", { status: 400 });
     }
 
     const products = await prismadb.product.findMany({

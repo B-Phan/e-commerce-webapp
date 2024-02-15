@@ -9,7 +9,7 @@ export async function GET(
 ) {
   try {
     if (!params.productId) {
-      return new NextResponse("Product id is required", { status: 400 });
+      return new NextResponse("Product ID is required", { status: 400 });
     }
 
     const product = await prismadb.product.findUnique({
@@ -43,7 +43,7 @@ export async function DELETE(
     }
 
     if (!params.productId) {
-      return new NextResponse("Product id is required", { status: 400 });
+      return new NextResponse("Product ID is required", { status: 400 });
     }
 
     const storeByUserId = await prismadb.store.findFirst({
@@ -87,7 +87,7 @@ export async function PATCH (
     }
 
     if (!params.productId) {
-      return new NextResponse("Product id is required", { status: 400 });
+      return new NextResponse("Product ID is required", { status: 400 });
     }
 
     if (!name) {
@@ -103,15 +103,15 @@ export async function PATCH (
     }
 
     if (!categoryId) {
-      return new NextResponse("Category id is required", { status: 400 });
+      return new NextResponse("Category ID is required", { status: 400 });
     }
 
     if (!colorId) {
-      return new NextResponse("Color id is required", { status: 400 });
+      return new NextResponse("Color ID is required", { status: 400 });
     }
 
     if (!sizeId) {
-      return new NextResponse("Size id is required", { status: 400 });
+      return new NextResponse("Size ID is required", { status: 400 });
     }
 
     const storeByUserId = await prismadb.store.findFirst({
