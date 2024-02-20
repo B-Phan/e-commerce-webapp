@@ -41,4 +41,3 @@ const MainNav: React.FC<MainNavProps> = ({ data }) => {
 
 export default MainNav;
 
-
