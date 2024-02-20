@@ -12,8 +12,8 @@ const Navbar = async () => {
   const categories = await getCategories();
 
   const cat = await getCategory();
-  console.log(categories); 
-  console.log(cat); 
+  // console.log(categories); 
+  // console.log(cat); 
 
   return ( 
     <div className="border-b">
