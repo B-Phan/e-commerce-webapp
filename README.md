@@ -17,7 +17,9 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) 
 
-Scroll over to the MASTER branch and clone the Github url as well, this will serve as the frontend STORE.
+Scroll over to the MASTER branch or use the link below and clone the Github url in another window, this will serve as the frontend STORE.
+
+https://github.com/B-Phan/e-commerce-webapp/tree/master
 
 Run using 
 
@@ -25,7 +27,7 @@ npm run dev
 
 Open [http://localhost:3001](http://localhost:3001) 
 
-The backend store (ADMIN) must be run first.
+NOTE: The backend (localhost:3000) must be run first.
 
 
 
