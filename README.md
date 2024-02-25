@@ -9,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, clone the GitHub url link to your system.
 
-https://github.com/B-Phan/e-commerce-webapp/tree/main
+https://github.com/B-Phan/e-commerce-webapp.git -b main
 
 Secondly, run the server using:
 
@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 Scroll over to the MASTER branch or use the link below and clone the Github url in another window, this will serve as the frontend STORE.
 
-https://github.com/B-Phan/e-commerce-webapp/tree/master
+https://github.com/B-Phan/e-commerce-webapp.git -b master
 
 Run using 
 
