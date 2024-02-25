@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, clone the GitHub url link to your system.
 
-https://github.com/B-Phan/e-commerce-webapp/tree/master
+https://github.com/B-Phan/e-commerce-webapp.git -b master
 
 Secondly, run the server using:
 
