@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-- PlanetScale used to support the database
+- Site designed using Tailwind CSS
+- MySQL, PlanetScale used to support the database
 - Clerk used to manage the userbase
 - Cloudinary used to support media upload such as images
 - Stripe used to handle safe and secure credit card transactions
