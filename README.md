@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-IMPORTANT: As of April 8th, PlanetScale which was used to handle the serverless database no longer supports the free Hobby tier. To properly run this application moving forward, you must upgrade to a paid plan.
 
+## Getting Started
+
+IMPORTANT: As of April 8th, PlanetScale which was used to handle the serverless database no longer supports the free Hobby tier. To properly run this application moving forward, you must upgrade to a paid plan.
 
 - Site designed using Tailwind CSS
 - MySQL, PlanetScale used to support the database
